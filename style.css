@@ -1,0 +1,154 @@
+.header-container{
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
+}
+.header{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-logo{
+    font-size: 24px;
+    font-style: roboto;
+}
+.links{
+    color: aliceblue;
+}
+.body-container{
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
+}
+.btn{
+    color: white;
+    background-color: rgb(68, 0, 255);
+    border: 20px solid rgb(68, 0, 255);
+    border-radius: 10px;
+}
+.body-header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-img{
+    border: 1px solid rgb(4, 4, 4);
+    background-color: #6b7280;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+
+
+}
+.info-section{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.info-section h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.info-grid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.info-box{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.info-card p {
+  color: #6B7280;      
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;   /* teksti qendron nen kuti  */
+  max-width: 180px;     /* teksti qendron mrena kutis  */
+  margin: 0 auto;       /* qendron horizontalisht */
+}
+.quote-section{
+    background:#E5E7EB; 
+}
+.quote-wrap{
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px;
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    line-height: 1.35;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+.quote-author{
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 22px;
+}
+.cta-section{
+    background:#fff;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-container{
+    background-color: #3882F6;
+    color: white;
+    max-width: 1000px;
+    width: 90%;
+    border-radius: 8px;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.cta-text h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.cta-text p{
+    font-size: 16px;
+    color: #E5E7EB;
+    margin:0;
+}
+.cta-btn{
+    background: trasparent;
+    background-color: #3882F6;
+    color: rgb(243, 229, 229);
+    border: 2px solid rgb(240, 235, 235);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 16px;
+}
